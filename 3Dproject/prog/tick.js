@@ -8,5 +8,5 @@ function tick() {
   var t1 = performance.now();
   updateFPS(t1, t0);
   drawHUD(ctx);
-  requestAnimationFrame(tick);
+  //requestAnimationFrame(tick);
 }

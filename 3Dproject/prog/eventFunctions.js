@@ -78,6 +78,7 @@ function WASD(event) {
 	  driverScene.rest();
 	  break;
   }
+  tick();
 }
 
 function parseMap(){
@@ -152,6 +153,7 @@ function createMap(colors){
     driverScene.addGeometry(friend);
   }
   driverScene.revealArea();
+  tick();
 }
 
 function showControlsTutorial(){
